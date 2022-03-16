@@ -1,15 +1,16 @@
-class q12
+class q13
 {
 public static void main(String args[])
 {
-int i,j,k;
-for(i=1;i<=5;i++)
+char i,j,k; int sp=1;
+for(i='A';i<='E';i++)
 {
-  for(k=4;k>=i;k--)
+  for(k=4;k>=sp;k--)
   {
   System.out.print(" ");
+  sp++;
   }
-  for(j=1;j<=i;j++)
+  for(j='A';j<=i;j++)
    {
     System.out.print(i+" ");
 }
